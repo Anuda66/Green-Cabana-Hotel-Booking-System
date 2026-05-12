@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { FaCloud } from "react-icons/fa";
 
 function NavBar() {
+    
+    const [visible, setVisible] = useState(false)
+    
     return (
 
         <div className='fixed top-0 left-0 w-full bg-white shadow-md '>
             <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
                 <div className='flex items-center justify-between py-5 font-medium'>
                     <Link to={'/'} className='flex items-center gap-2'>
-                        <p className='text-2xl font-bold text-blue-800'>Green Cabana</p>
+                        <p className='text-2xl font-bold text-green-900'>Green Cabana</p>
                     </Link>
 
                     <ul className='items-center hidden gap-10 text-gray-700 sm:flex text-md '>
@@ -38,7 +41,7 @@ function NavBar() {
                             <p>Contact</p>
                             <hr className='w-3/4 border-none h-[2px] bg-yellow-500 hidden' />
                         </NavLink>
-                        <NavLink to="/booking" className='flex flex-col items-center gap-1 px-4 py-2 text-white bg-green-700 rounded-full'>
+                        <NavLink to="/booking" className='flex flex-col items-center gap-1 px-4 py-2 text-white bg-green-900 rounded-full hover:bg-green-700'>
                             <p>Book Now</p>
                             <hr className='w-3/4 border-none h-[2px] bg-yellow-500 hidden ' />
                         </NavLink>

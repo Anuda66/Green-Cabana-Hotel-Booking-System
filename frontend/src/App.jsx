@@ -8,10 +8,11 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NavBar from './components/NavBar'
 import Booking from './pages/Booking'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='mx-4 sm:mx-[10%]'>
+    <div >
       <NavBar />
       <Routes >
         <Route path="/" element={<Home />} />
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/booking" element={<Booking />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
