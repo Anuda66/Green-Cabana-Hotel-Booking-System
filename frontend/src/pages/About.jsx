@@ -1,9 +1,10 @@
 import React from 'react'
+import HederAbout from '../components/HederAbout'
 
 function About() {
   return (
     <div>
-      About
+      <HederAbout/>
     </div>
   )
 }
