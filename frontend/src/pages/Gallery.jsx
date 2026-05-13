@@ -1,9 +1,10 @@
 import React from 'react'
+import HederGallery from '../components/HederGallery'
 
 function Gallery() {
   return (
     <div>
-        Gallery
+        <HederGallery/>
     </div>
   )
 }
