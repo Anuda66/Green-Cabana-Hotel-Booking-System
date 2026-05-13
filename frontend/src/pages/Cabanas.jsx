@@ -1,9 +1,10 @@
 import React from 'react'
+import HederCabana from '../components/HederCabana'
 
 function Cabanas() {
   return (
     <div>
-      Cabanas
+      <HederCabana/>
     </div>
   )
 }
