@@ -1,0 +1,84 @@
+import React from 'react'
+import Cover1 from '../assets/cover1.jpg'
+import Cover2 from '../assets/cover2.jpg'
+import Cover3 from '../assets/cover3.jpg'
+import { FaBed } from "react-icons/fa";
+import { FaUserFriends } from "react-icons/fa";
+import { FaRegSquare } from "react-icons/fa";
+import { FiDollarSign } from "react-icons/fi";
+
+
+function Features() {
+    return (
+        <div className='mx-5 my-32 md:mx-10 lg:mx-20 '>
+            <div className='items-center mb-10 text-center '>
+                <div className="inline-flex items-center px-6 py-1 mb-4 text-base font-medium text-black border border-gray-400 rounded-full bg-gray-400/30 hover:bg-gray-500/50 backdrop-blur-sm">
+                    <p>Our Cabanas</p>
+                </div>
+                <h1 className="mb-2 text-5xl font-bold text-center sm:text-6xl md:text-6xl md:mb-4">
+                    Where Luxury Meets the Wild
+                </h1>
+                <p className="text-xl text-center text-gray-500">
+                    Each cabana is a sanctuary of comfort, designed to blend seamlessly with the<br />surrounding jungle.
+                </p>
+            </div>
+
+            {/* Featurs------------------------------------------------------------------------------------------------------------------- */}
+            <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
+                    <img className="w-full" src={Cover1} alt="Sunset in the mountains" />
+                    <div className="px-6 py-4">
+                        <div className="flex justify-between">
+                            <p className='mb-2 text-xl font-bold'>Jungle Canopy Suite</p>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                        </div>
+                        <p className="text-base text-gray-400">
+                            Elevated among the treetops with panoramic jungle views and a private balcony.
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                    </div>
+                </div>
+                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
+                    <img className="w-full" src={Cover2} alt="Sunset in the mountains" />
+                    <div className="px-6 py-4">
+                        <div className="flex justify-between">
+                            <p className='mb-2 text-xl font-bold'>Riverside Retreat</p>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                        </div>
+                        <p className="text-base text-gray-400">
+                            Nestled by the river with an open-air bathroom and ambient jungle sounds.
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                    </div>
+                </div>
+                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
+                    <img className="w-full" src={Cover3} alt="Sunset in the mountains" />
+                    <div className="px-6 py-4">
+                        <div className="flex justify-between">
+                            <p className='mb-2 text-xl font-bold'>Treehouse Villa</p>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                        </div>
+                        <p className="text-base text-gray-400">
+                            A luxurious treehouse experience with a private plunge pool and stunning canopy views.
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Features

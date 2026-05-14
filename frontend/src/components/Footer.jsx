@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div>
             <footer className="bg-green-900">
-                <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div className="py-12 mx-5 my-10 max-w-7xl md:mx-10 lg:mx-20">
                     <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
                         <div>
                             <h3 className="text-sm font-semibold tracking-wider text-white uppercase">
