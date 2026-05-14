@@ -6,7 +6,7 @@ function HederBooking() {
         <div>
             <div className=''>
                 {/*Cover Image section-----------------------------*/}
-                <div className="relative w-full h-48 mt-16 mb-24 sm:h-56 md:h-64 lg:h-72 xl:h-96">
+                <div className="relative w-full h-48 mb-24 -mt-10 sm:h-56 md:h-64 lg:h-72 xl:h-96">
 
                     {/* Image container */}
                     <img src={Cover} alt="Cover" className="object-cover w-full h-full animate-fadeIn" />
