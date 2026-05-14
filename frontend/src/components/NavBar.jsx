@@ -20,12 +20,12 @@ function NavBar() {
 
     return (
 
-        <div className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${scrolled ? 'bg-white/30 backdrop-blur-lg' : 'bg-transparent'}`}>
+        <div className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${scrolled ? 'bg-gray-600/50 backdrop-blur-lg' : 'bg-transparent'}`}>
             <div className='px-5 md:px-14 sm:px-10'>
                 <div className="flex items-center justify-between py-4 m-2 text-sm ">
                     {/* App Logo---------------------------------- */}
                     <div>
-                        <p onClick={() => navigate('/')} className="text-2xl font-bold text-green-600 cursor-pointer">Green Cabana</p>
+                        <p onClick={() => navigate('/')} className="text-2xl font-bold text-white cursor-pointer">Green Cabana</p>
                     </div>
                     <ul className="items-start hidden gap-5 font-medium md:flex">
                         <NavLink onClick={() => scrollTo(0, 0)} to={"/"}>

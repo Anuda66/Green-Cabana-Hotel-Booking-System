@@ -7,19 +7,18 @@ import { FaUserFriends } from "react-icons/fa";
 import { FaRegSquare } from "react-icons/fa";
 import { FiDollarSign } from "react-icons/fi";
 
-
 function Features() {
     return (
         <div className='mx-5 my-32 md:mx-10 lg:mx-20 '>
             <div className='items-center mb-10 text-center '>
-                <div className="inline-flex items-center px-6 py-1 mb-4 text-base font-medium text-black border border-gray-400 rounded-full bg-gray-400/30 hover:bg-gray-500/50 backdrop-blur-sm">
+                <div className="inline-flex items-center px-6 py-1 mb-4 text-base font-medium text-black border border-gray-400 rounded-full bg-gray-400/30 hover:bg-gray-500/50 backdrop-blur-sm md:text-md">
                     <p>Our Cabanas</p>
                 </div>
-                <h1 className="mb-2 text-5xl font-bold text-center sm:text-6xl md:text-6xl md:mb-4">
+                <h1 className="mb-2 text-4xl font-bold text-center sm:text-6xl md:text-6xl md:mb-4">
                     Where Luxury Meets the Wild
                 </h1>
-                <p className="text-xl text-center text-gray-500">
-                    Each cabana is a sanctuary of comfort, designed to blend seamlessly with the<br />surrounding jungle.
+                <p className="text-lg text-center text-gray-500 md:text-xl">
+                    Each cabana is a sanctuary of comfort, designed to blend seamlessly with the<br className='hidden' />surrounding jungle.
                 </p>
             </div>
 
@@ -76,6 +75,11 @@ function Features() {
                         <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
                     </div>
                 </div>
+            </div>
+
+            {/* button--------------------------------------------------------- */}
+            <div className='items-center mt-20 text-center '>
+                <a href='/cabanas' className='px-5 py-2 text-lg text-center border-2 border-gray-500 rounded-full hover:bg-green-900 hover:text-white '> View All Cabanas</a>
             </div>
         </div>
     )
