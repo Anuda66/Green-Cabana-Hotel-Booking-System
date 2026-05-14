@@ -1,6 +1,7 @@
 import React from 'react'
 import HederAbout from '../components/HederAbout'
 import img1 from '../assets/cover6.jpg'
+import { GoDotFill } from "react-icons/go";
 
 function About() {
   return (
@@ -9,8 +10,8 @@ function About() {
 
       <div className='mx-5 my-32 md:mx-10 lg:mx-20 '>
         {/* Page containt---------------------------------------*/}
-        <div className='h-screen mb-20 '>
-          <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+        <div className='h-screen '>
+          <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl xl:max-w-6xl">
             <div class="w-full h-64 lg:w-1/2 lg:h-auto ">
               <img class="h-full w-full object-cover rounded-3xl" src={img1} alt="Winding mountain road" />
             </div>
