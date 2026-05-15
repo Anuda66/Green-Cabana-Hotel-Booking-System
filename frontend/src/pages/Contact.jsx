@@ -14,16 +14,16 @@ function Contact() {
           <div className='w-full lg:w-1/2 lg:px-20'>
             <h1 class="leading-tight text-4xl font-bold text-primary-100">We'd Love to Hear from You</h1>
             <p class="mt-4 text-gray-500 text-md">Whether you have a question about our cabanas,<br></br> experiences, or anything else, our team is ready to help.</p>
-            <div className='flex flex-col mt-5'>
-              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 "><span><FaLocationDot /></span>Green Valley Wildlife Reserve, Tropical Highlands, 00100</p>
-              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 "><span><FaPhone className='' /></span>+1 (555) 234-5678</p>
-              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 "><span><MdEmail /></span>stay@greencabana.com</p>
-              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 "><span><FaClock /></span>eception: 24/7 | Activities: 6am–8pm</p>
+            <div className='flex flex-col mt-5 '>
+              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 text-md"><span><FaLocationDot /></span>Green Valley Wildlife Reserve, Tropical Highlands, 00100</p>
+              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 text-md"><span><FaPhone className='' /></span>+1 (555) 234-5678</p>
+              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 text-md"><span><MdEmail /></span>stay@greencabana.com</p>
+              <p className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm text-gray-500 text-md"><span><FaClock /></span>eception: 24/7 | Activities: 6am–8pm</p>
             </div>
           </div>
           <div className='w-full lg:w-1/2'>
             <div className="">
-              <div className="w-full max-w-2xl p-8 mt-10 border shadow-md rounded-2xl lg-mt-0">
+              <div className="w-full max-w-2xl p-8 border shadow-md rounded-2xl lg-mt-0 sm:mt-10">
                 <div className="space-y-5">
                   {/* Name & Email---------------------------------------------------------------------------- */}
                   <div className="flex flex-col gap-5 sm:flex-row">

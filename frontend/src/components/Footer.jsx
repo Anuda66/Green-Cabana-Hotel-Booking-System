@@ -20,12 +20,12 @@ function Footer() {
                                 Quick Links
                             </h3>
                             <ul className="mt-4 space-y-2">
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Home</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Cabanas</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Experiences</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Gallery</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">About</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Contact</a></li>
+                                <li><a href="/" className="text-sm text-white hover:text-primary">Home</a></li>
+                                <li><a href="/cabanas" className="text-sm text-white hover:text-primary">Cabanas</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Experiences</a></li>
+                                <li><a href="/gallery" className="text-sm text-white hover:text-primary">Gallery</a></li>
+                                <li><a href="/about" className="text-sm text-white hover:text-primary">About</a></li>
+                                <li><a href="/contact" className="text-sm text-white hover:text-primary">Contact</a></li>
                             </ul>
                         </div>
 
@@ -34,12 +34,12 @@ function Footer() {
                                 Experiences
                             </h3>
                             <ul className="mt-4 space-y-2">
-                                <li><a href="/" className="text-sm text-white hover:text-primary">Safari Tours</a></li>
-                                <li><a href="/apps" className="text-sm text-white hover:text-primary">Jungle Trekking</a></li>
-                                <li><a href="/about" className="text-sm text-white hover:text-primary">Bird Watching</a></li>
-                                <li><a href="/contact" className="text-sm text-white hover:text-primary">River Kayaking</a></li>
-                                <li><a href="/contact" className="text-sm text-white hover:text-primary">Spa & Wellness</a></li>
-                                <li><a href="/contact" className="text-sm text-white hover:text-primary">Stargazing</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Safari Tours</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Jungle Trekking</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Bird Watching</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">River Kayaking</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Spa & Wellness</a></li>
+                                <li><a href="/experiences" className="text-sm text-white hover:text-primary">Stargazing</a></li>
                             </ul>
                         </div>
 
