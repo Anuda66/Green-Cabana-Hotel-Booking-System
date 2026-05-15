@@ -24,55 +24,112 @@ function Features() {
 
             {/* Featurs------------------------------------------------------------------------------------------------------------------- */}
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
-                    <img className="w-full" src={Cover1} alt="Sunset in the mountains" />
+                <div className="relative max-w-sm overflow-hidden shadow-lg cursor-pointer rounded-xl group">
+
+                    {/* Image---------------------------------------------------------------------------- */}
+                    <img
+                        className="w-full transition-transform duration-500 group-hover:scale-110"
+                        src={Cover1}
+                        alt="Sunset in the mountains"
+                    />
+
+                    {/* Dark overlay — hidden by default, shows on hover */}
+                    <div className="absolute inset-0 transition-opacity duration-500 opacity-0 bg-black/40 group-hover:opacity-100" />
+
                     <div className="px-6 py-4">
                         <div className="flex justify-between">
                             <p className='mb-2 text-xl font-bold'>Jungle Canopy Suite</p>
-                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                                <FiDollarSign />200/night
+                            </span>
                         </div>
                         <p className="text-base text-gray-400">
                             Elevated among the treetops with panoramic jungle views and a private balcony.
                         </p>
                     </div>
+
                     <div className="px-6 pt-4 pb-2">
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaBed />1 Bed
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaUserFriends />2 Guests
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaRegSquare />65 Sqm
+                        </span>
                     </div>
                 </div>
-                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
-                    <img className="w-full" src={Cover2} alt="Sunset in the mountains" />
+                <div className="relative max-w-sm overflow-hidden shadow-lg cursor-pointer rounded-xl group">
+
+                    {/* Image */}
+                    <img
+                        className="w-full transition-transform duration-500 group-hover:scale-110"
+                        src={Cover2}
+                        alt="Sunset in the mountains"
+                    />
+
+                    {/* Dark overlay — hidden by default, shows on hover */}
+                    <div className="absolute inset-0 transition-opacity duration-500 opacity-0 bg-black/40 group-hover:opacity-100" />
+
                     <div className="px-6 py-4">
                         <div className="flex justify-between">
-                            <p className='mb-2 text-xl font-bold'>Riverside Retreat</p>
-                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                            <p className='mb-2 text-xl font-bold'>Jungle Canopy Suite</p>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                                <FiDollarSign />200/night
+                            </span>
                         </div>
                         <p className="text-base text-gray-400">
-                            Nestled by the river with an open-air bathroom and ambient jungle sounds.
+                            Elevated among the treetops with panoramic jungle views and a private balcony.
                         </p>
                     </div>
+
                     <div className="px-6 pt-4 pb-2">
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaBed />1 Bed
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaUserFriends />2 Guests
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaRegSquare />65 Sqm
+                        </span>
                     </div>
                 </div>
-                <div className="max-w-sm overflow-hidden shadow-lg rounded-xl">
-                    <img className="w-full" src={Cover3} alt="Sunset in the mountains" />
+                <div className="relative max-w-sm overflow-hidden shadow-lg cursor-pointer rounded-xl group">
+
+                    {/* Image */}
+                    <img
+                        className="w-full transition-transform duration-500 group-hover:scale-110"
+                        src={Cover3}
+                        alt="Sunset in the mountains"
+                    />
+
+                    {/* Dark overlay — hidden by default, shows on hover */}
+                    <div className="absolute inset-0 transition-opacity duration-500 opacity-0 bg-black/40 group-hover:opacity-100" />
+
                     <div className="px-6 py-4">
                         <div className="flex justify-between">
-                            <p className='mb-2 text-xl font-bold'>Treehouse Villa</p>
-                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FiDollarSign />200/night</span>
+                            <p className='mb-2 text-xl font-bold'>Jungle Canopy Suite</p>
+                            <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                                <FiDollarSign />200/night
+                            </span>
                         </div>
                         <p className="text-base text-gray-400">
-                            A luxurious treehouse experience with a private plunge pool and stunning canopy views.
+                            Elevated among the treetops with panoramic jungle views and a private balcony.
                         </p>
                     </div>
+
                     <div className="px-6 pt-4 pb-2">
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "><FaBed />1 Bed</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaUserFriends />2 Guests</span>
-                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full"><FaRegSquare />65 Sqm</span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaBed />1 Bed
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaUserFriends />2 Guests
+                        </span>
+                        <span className="inline-flex items-center gap-1 px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
+                            <FaRegSquare />65 Sqm
+                        </span>
                     </div>
                 </div>
             </div>
